@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const client = new Discord.Client({ ws: { intents: ['GUILDS'] } });
+const client = new Discord.Client({ intents: [Discord.Intents.FLAGS.GUILDS] });
 const fs = require('fs');
 const https = require('https');
 
